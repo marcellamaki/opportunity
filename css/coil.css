@@ -927,12 +927,21 @@ html {
 	}
 	.contact-card p {
 		font-family: neue-haas-grotesk-display, sans-serif;
-		font-size: 20px;
+		font-size: 18px;
 		color: #222222;
 		letter-spacing: 0;
-		line-height: 28px;
+		line-height: 50px;
 		font-weight: 500;
 		margin: 0;
+	}
+
+	.contact-card a {
+		color: #222222;
+		text-decoration: underline;
+	}
+
+	.contact-card a:hover {
+		font-style: italic;
 	}
 
 @media screen and (max-width: 63.99em) {
