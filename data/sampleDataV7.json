@@ -3,7 +3,7 @@
     {
       "Title": "Where private capital meets public growth",
       "Owner": "Citi Ventures",
-      "Category": "zones",
+      "Category": "workforce",
       "Short-Message": "City Builder uses U.S. Census Bureau, U.S. Department of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange Commission data to bring transparency to the Opportunity Zone ecosystem for investors, fund manager, wealth managers, and cities.",
       "Image-File": "citi-ventures.png",
       "Gallery-Link": "citi.com/citybuilder"
@@ -11,7 +11,7 @@
     {
       "Title": "Community-focused and data-driven economic development",
       "Owner": "Public Democracy",
-      "Category": "zones",
+      "Category": "workforce",
       "Short-Message": "Public Democracy uses ACS data, proprietary enterprise level marketing systems along with privately owned data, and new data that we gathered via their survey tool, which ensures that community priorities inform OZ strategies for policy decision-makers, economic development officials, and investors in Birmingham, Alabama.",
       "Image-File": "public-democracy.png",
       "Gallery-Link": "https://www.publicdemocracy.io/opportunity-zones-local-impact"
@@ -19,7 +19,7 @@
     {
       "Title": "Promoting rural entrepreneurship by connecting investors to rural Opportunity Zones with fertile ground for tech startups.",
       "Owner": "CORI",
-      "Category": "zones",
+      "Category": "workforce",
       "Short-Message": "The Rural Startup Scout uses federal datasets including the American Community Survey, HIFLD, FCC Form 477, and data about education attainment and patent activity to reveal Opportunity Zones with emerging tech sectors so investors can discover promising rural startups ready to scale that otherwise would have been overlooked.",
       "Image-File": "cori.png",
       "Gallery-Link": "https://oz.ruralopportunitymap.us/"
@@ -27,7 +27,7 @@
     {
       "Title": "Helping households and entrepreneurs make better decisions about relocating and employment",
       "Owner": "Redfin",
-      "Category": "talent",
+      "Category": "workforce",
       "Short-Message": "Redfin's job opportunity tool uses datasets on employment clusters, pay ranges, housing costs, and more to help better inform Redfin’s millions of users looking to relocate for work or even startups looking to find workers.",
       "Image-File": "redfin.png",
       "Gallery-Link": "https://www.redfin.com/blog/job-opportunity-tool/"
@@ -35,7 +35,7 @@
     {
       "Title": "Connecting underserved residents to jobs, career fairs, training programs, and wraparound services to Solve all the barriers to employment",
       "Owner": "Solve.is",
-      "Category": "pathways",
+      "Category": "workforce",
       "Short-Message": "Solve uses NAICs codes and National Certifications Table to organize industries to better connect skills, certifications, industries and outcomes of training programs towards the right jobs in the right industry.",
       "Image-File": "solve.is.png",
       "Gallery-Link": "www.solve.is"
@@ -59,7 +59,7 @@
     {
       "Title": "Providing free educational resources and interactive tools to micro and small business owners",
       "Owner": "Visa",
-      "Category": "entrepreneurship",
+      "Category": "workforce",
       "Short-Message": "The Practical Business Skills chat bot uses several federal data, such as Small Business Administration’s ‘Find Local Assistance’ resource, to empower growth-minded entrepreneurs with the financial and business knowledge to better manage their money and make confident, informed business decisions.",
       "Image-File": "visa-2.png",
       "Gallery-Link": "www.practicalbusinessskills.com"
@@ -75,7 +75,7 @@
     {
       "Title": "Helping entrepreneurs identify where high-tech talent exists",
       "Owner": "Emsi",
-      "Category": "talent",
+      "Category": "workforce",
       "Short-Message": "The Talent Finder Tool uses a variety of federal open data sets, including data from the Bureau of Labor Statistics, StatsAmerica, US Census/American Community Survey, and Internal Revenue Service to solve talent discovery issues for entrepreneurs and small businesses seeking to hire high-tech workers.",
       "Image-File": "emsi.gif",
       "Gallery-Link": "The Talent Finder Tool on Tableau Public"
@@ -91,7 +91,7 @@
     {
       "Title": "Empowering individuals to speak up and organizations to build more inclusive work cultures",
       "Owner": "Kanarys",
-      "Category": "pathways",
+      "Category": "workforce",
       "Short-Message": "Kanarys uses open EEOC data and Census data and reports to create more inclusive, nontoxic workplaces for individuals and their employers.",
       "Image-File": "kanarys.png",
       "Gallery-Link": "app.kanarys.com"
@@ -107,7 +107,7 @@
     {
       "Title": "Measuring Opportunity, One Neighborhood At A Time",
       "Owner": "Mastercard",
-      "Category": "zones",
+      "Category": "workforce",
       "Short-Message": "The Inclusive Growth Score blends open-source public data with a proprietary layer of aggregated and anonymized Mastercard Data to measure the degree to which place, economy and community in a given Opportunity Zone benefit from equitable growth.",
       "Image-File": "mastercard.png",
       "Gallery-Link": "https://inclusivegrowthscore.com/"
