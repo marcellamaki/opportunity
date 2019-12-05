@@ -6,7 +6,7 @@
       "Category": "workforce",
       "Short-Message": "City Builder uses U.S. Census Bureau, U.S. Department of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange Commission data to bring transparency to the Opportunity Zone ecosystem for investors, fund manager, wealth managers, and cities.",
       "Image-File": "citi-ventures.png",
-      "Gallery-Link": "citi.com/citybuilder",
+      "Gallery-Link": "https://www.citivelocity.com/citybuilder/eppublic/cb",
       "ClearDiv": ""
     },
     {
@@ -42,7 +42,7 @@
       "Category": "workforce",
       "Short-Message": "Solve uses NAICs codes and National Certifications Table to organize industries to better connect skills, certifications, industries and outcomes of training programs towards the right jobs in the right industry.",
       "Image-File": "solve.is.png",
-      "Gallery-Link": "www.solve.is",
+      "Gallery-Link": "https://www.solve.is/",
       "ClearDiv": ""
     },
     {
@@ -69,7 +69,7 @@
       "Category": "workforce",
       "Short-Message": "The Practical Business Skills chat bot uses several federal data, such as Small Business Administration’s ‘Find Local Assistance’ resource, to empower growth-minded entrepreneurs with the financial and business knowledge to better manage their money and make confident, informed business decisions.",
       "Image-File": "visa-2.jpg",
-      "Gallery-Link": "www.practicalbusinessskills.com",
+      "Gallery-Link": "http://www.practicalbusinessskills.com/",
       "ClearDiv": ""
     },
     {
@@ -105,7 +105,7 @@
       "Category": "workforce",
       "Short-Message": "Kanarys uses open EEOC data and Census data and reports to create more inclusive, nontoxic workplaces for individuals and their employers.",
       "Image-File": "kanarys.png",
-      "Gallery-Link": "app.kanarys.com",
+      "Gallery-Link": "https://app.kanarys.com/company-compare/browse",
       "ClearDiv": ""
     },
     {
@@ -113,8 +113,8 @@
       "Owner": "Next Day Better",
       "Category": "census",
       "Short-Message": "NextDayBetter used open data overlaying low-response census tracts with low broadband access and CBAMS insights to define demographic profiles and psychographic barriers to design stories that, first and foremost, are culturally relevant to engage Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and that will raise awareness of how census impacts their lives.",
-      "Image-File": "next-day-better.png",
-      "Gallery-Link": "www.whywecount.org",
+      "Image-File": "next-day-better.jpg",
+      "Gallery-Link": "https://whywecount.org/",
       "ClearDiv": ""
     },
     {
