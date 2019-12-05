@@ -40,23 +40,23 @@ $(window).on("load", function() {
 		},
 		offset: '60%',
 	})
-	
+
 	// nav bar on scroll
 	$(document).on("scroll", function() {
 		if ($(window).width() > 640) {
 			var $nav = $(".usa-nav a");
 			$nav.toggleClass('scrolled', $(this).scrollTop() >$nav.height());
 		}
-		
+
 	});
 
 
 	// hero image change
 	if($(window).width() < 481){
          var images = [
-				  "img/coil-hero-mobile.png",
-				  "img/coil-hero-02-mobile.png",
-				  "img/coil-hero-03-mobile.png"
+				  "../img/coil-hero-mobile.png",
+				  "../img/coil-hero-02-mobile.png",
+				  "../img/coil-hero-03-mobile.png"
 				]
 
 		var hero = document.getElementById('hero');
@@ -68,13 +68,13 @@ $(window).on("load", function() {
 	        i =  0;
 		      }
 		}, 2000);
-   } 
+   }
 
    else {
    		var images = [
-				  "img/coil-hero-01.png",
-				  "img/coil-hero-02.png",
-				  "img/coil-hero-03.png",
+				  "../img/coil-hero-01.png",
+				  "../img/coil-hero-02.png",
+				  "../img/coil-hero-03.png",
 				]
 
 		var hero = document.getElementById('hero');
