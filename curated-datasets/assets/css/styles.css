@@ -18699,13 +18699,13 @@ html {
       right: 0;
       border-radius: 10px;
       background: RGB(19, 25, 47, 0.5); }
-  .data-kit .data-kit__container__active {
+  .data-kit .data-kit__container .data-kit__active {
     transition: transform 400ms ease; }
-    .data-kit .data-kit__container__active:hover {
+    .data-kit .data-kit__container .data-kit__active:hover {
       transform: translate(-5px, -10px); }
-      .data-kit .data-kit__container__active:hover .data-kit__arrow {
+      .data-kit .data-kit__container .data-kit__active:hover .data-kit__arrow {
         animation: bounce 2s infinite; }
-      .data-kit .data-kit__container__active:hover::after {
+      .data-kit .data-kit__container .data-kit__active:hover::after {
         opacity: 0.65; }
   .data-kit .data-kit__container .data-kit__bg {
     height: 40rem;
