@@ -1,10 +1,6 @@
 $.ajax({
    type: 'GET',
-<<<<<<< HEAD:js/HandlebarsCode/galleryCode.js
-   url: '../data/sampleDataV7.json',
-=======
-   url: './data/projects.json',
->>>>>>> staging:assets/js/gallery-code.js
+   url: '/assets/data/projects.json',
    dataType: 'json',
    success: function( data ) {
 
