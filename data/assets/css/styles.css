@@ -18396,6 +18396,10 @@ example:
   max-width: 110rem;
   padding: 0; }
 
+html {
+  height: 100vh;
+  background-color: #004280; }
+
 @font-face {
   font-family: "Silka";
   src: url("../fonts/silka/roman/silka-black.eot"), url("../fonts/silka/roman/silka-black.woff") format("woff"), url("../fonts/silka/roman/silka-black.ttf") format("truetype"), url("../fonts/silka/roman/silka-black.woff2") format("woff2");
@@ -18477,7 +18481,11 @@ example:
   font-style: italic;
   font-weight: 100; }
 html {
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: "silka", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
   @media (max-width: 63.99em) {
     html {
       font-size: 9px; } }
@@ -18550,14 +18558,16 @@ html {
   background-color: #004280;
   height: auto;
   width: 100%;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  margin-bottom: -2rem; }
   @media (max-width: 63.99em) {
     .landing-container {
       margin-top: 1.5rem; } }
 
 .usa-hero {
   background-image: none;
-  margin: 5rem 0; }
+  margin: 5rem 0;
+  padding-bottom: 0; }
   @media (max-width: 63.99em) {
     .usa-hero {
       margin: 0rem 5rem;
@@ -18569,13 +18579,14 @@ html {
   .usa-hero__callout, .interior-hero__callout {
     max-width: 60rem;
     background-color: #004280;
-    padding-left: 0; }
+    padding: 2rem 0 0 0; }
     .usa-hero__callout p, .interior-hero__callout p {
       font-family: "silka", Helvetica, sans-serif;
       font-size: 1.8rem;
       font-weight: 400;
       line-height: 31px;
-      margin-top: 2rem; }
+      margin-top: 2rem;
+      margin-bottom: 2.5rem; }
     .usa-hero__callout h6, .interior-hero__callout h6 {
       font-family: "silka", Helvetica, sans-serif;
       margin: 0;
@@ -18661,7 +18672,8 @@ html {
     background-repeat: no-repeat;
     z-index: 2;
     padding: 9rem 3.5rem 3.5rem 3.5rem;
-    border-radius: 10px; }
+    border-radius: 10px;
+    cursor: default; }
     @media (max-width: 63.99em) {
       .data-kit .data-kit__container .data-kit__card {
         width: 100%; } }
@@ -18700,7 +18712,8 @@ html {
       border-radius: 10px;
       background: RGB(19, 25, 47, 0.6); }
   .data-kit .data-kit__container .data-kit__active {
-    transition: transform 400ms ease; }
+    transition: transform 400ms ease;
+    cursor: pointer; }
     .data-kit .data-kit__container .data-kit__active:hover {
       transform: translate(-5px, -10px); }
       .data-kit .data-kit__container .data-kit__active:hover .data-kit__arrow {
@@ -18733,7 +18746,7 @@ html {
     right: 2rem; }
   .data-kit .data-kit__container .data-kit__stats {
     color: #13192F;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 0.8px;
     padding: 1rem 1.2rem;
     background-color: #FFFFFF;
@@ -18788,7 +18801,8 @@ html {
 .usa-footer {
   background-color: #004280;
   text-align: center;
-  padding: 20rem 0 10rem 0; }
+  padding: 20rem 0 10rem 0;
+  border-bottom: 1rem solid #004280; }
   .usa-footer .data-source__button {
     background-color: transparent;
     border: none; }
@@ -18955,6 +18969,18 @@ html {
       @media (max-width: 63.99em) {
         .challenge__text-description {
           display: none; } }
+    .challenge__text-link {
+      font-size: 1.6rem;
+      font-weight: 400;
+      transition: all 400ms ease; }
+      .challenge__text-link a {
+        color: #FFFFFF;
+        -webkit-text-decoration: #F7C636 dotted underline;
+        text-decoration: #F7C636 dotted underline;
+        -webkit-text-underline-position: under;
+        text-underline-position: under; }
+        .challenge__text-link a:hover {
+          text-decoration-style: solid; }
   .challenge__text-description-mobile {
     display: none;
     font-family: "silka", Helvetica, sans-serif;
@@ -18967,6 +18993,20 @@ html {
       .challenge__text-description-mobile {
         display: block;
         margin-top: 2rem; } }
+  .challenge__text-link-mobile {
+    display: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: all 400ms ease; }
+    .challenge__text-link-mobile a {
+      color: #FFFFFF;
+      -webkit-text-decoration: #F7C636 dotted underline;
+      text-decoration: #F7C636 dotted underline;
+      -webkit-text-underline-position: under;
+      text-underline-position: under; }
+    @media (max-width: 63.99em) {
+      .challenge__text-link-mobile {
+        display: block; } }
 
 .datasets {
   background-color: #004280;
@@ -19032,7 +19072,8 @@ html {
       right: 2rem;
       bottom: -1rem;
       font-size: 1.3rem;
-      color: #13192F; }
+      color: #13192F;
+      font-weight: 500; }
       @media (max-width: 63.99em) {
         .datasets__card-email {
           opacity: 1; } }
