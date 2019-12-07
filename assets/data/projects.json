@@ -1,52 +1,34 @@
 {
   "data": [
     {
-      "Title": "Where private capital meets public growth",
-      "Owner": "Citi Ventures",
-      "Category": "workforce",
-      "Short-Message": "City Builder uses U.S. Census Bureau, U.S. Department of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange Commission data to bring transparency to the Opportunity Zone ecosystem for investors, fund manager, wealth managers, and cities.",
-      "Image-File": "citi-ventures.png",
-      "Gallery-Link": "citi.com/citybuilder",
+      "Title": "Inclusive Development Dashboards",
+      "Owner": "Burning Glass Technologies",
+      "Category": "economic development",
+      "Short-Message": "Burning Glass Technologies used federal open data from the Department of Labor and US Census Bureau, proprietary Burning Glass data on labor market demand, and public data from the US Cluster Mapping Project to assist regional workforce and economic development conveners develop strategies and prioritize initiatives to achieve inclusive development in their regions and to build an inclusive development network that includes leaders from the civic sector, government, and industry.",
+      "Image-File": "",
+      "Gallery-Link": "https://www.burning-glass.com/census/community.html",
       "ClearDiv": ""
     },
     {
-      "Title": "Community-focused and data-driven economic development",
-      "Owner": "Public Democracy",
-      "Category": "workforce",
-      "Short-Message": "Public Democracy uses ACS data, proprietary enterprise level marketing systems along with privately owned data, and new data that we gathered via their survey tool, which ensures that community priorities inform OZ strategies for policy decision-makers, economic development officials, and investors in Birmingham, Alabama.",
-      "Image-File": "public-democracy.png",
-      "Gallery-Link": "https://www.publicdemocracy.io/opportunity-zones-local-impact",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Promoting rural entrepreneurship by connecting investors to rural Opportunity Zones with fertile ground for tech startups",
-      "Owner": "CORI",
-      "Category": "workforce",
-      "Short-Message": "The Rural Startup Scout uses federal datasets including the American Community Survey, HIFLD, FCC Form 477, and data about education attainment and patent activity to reveal Opportunity Zones with emerging tech sectors so investors can discover promising rural startups ready to scale that otherwise would have been overlooked.",
+      "Title": "Rural Startup Scout",
+      "Owner": "Center on Rural Innovation",
+      "Category": "census",
+      "Short-Message": "CORI's Rural Startup Scout uses federal datasets including the American Community Survey, HIFLD, FCC Form 477, and data about education attainment and patent activity to reveal Opportunity Zones with emerging tech sectors so investors can discover promising rural startups ready to scale that otherwise would have been overlooked.",
       "Image-File": "cori.png",
       "Gallery-Link": "https://oz.ruralopportunitymap.us/",
       "ClearDiv": ""
     },
     {
-      "Title": "Helping households and entrepreneurs make better decisions about relocating and employment",
-      "Owner": "Redfin",
-      "Category": "workforce",
-      "Short-Message": "Redfin's job opportunity tool uses datasets on employment clusters, pay ranges, housing costs, and more to help better inform Redfin’s millions of users looking to relocate for work or even startups looking to find workers.",
-      "Image-File": "redfin.png",
-      "Gallery-Link": "https://www.redfin.com/blog/job-opportunity-tool/",
+      "Title": "City Builder",
+      "Owner": "Citi Ventures",
+      "Category": "rural",
+      "Short-Message": "Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange Commission data to bring transparency to the Opportunity Zone ecosystem for investors, fund manager, wealth managers, and cities.",
+      "Image-File": "citi-ventures.png",
+      "Gallery-Link": "http://citi.com/citybuilder",
       "ClearDiv": ""
     },
     {
-      "Title": "Connecting underserved residents to jobs, career fairs, training programs, and wraparound services to Solve all the barriers to employment",
-      "Owner": "Solve.is",
-      "Category": "workforce",
-      "Short-Message": "Solve uses NAICs codes and National Certifications Table to organize industries to better connect skills, certifications, industries and outcomes of training programs towards the right jobs in the right industry.",
-      "Image-File": "solve.is.png",
-      "Gallery-Link": "www.solve.is",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Understand your Census 2020 hard-to-count populations and discover the best messages for reaching them",
+      "Title": "Census Intelligence Center",
       "Owner": "Civis Analytics",
       "Category": "census",
       "Short-Message": "Census Intelligence Center combines data from the American Community Survey and Census Barriers, Attitudes, and Motivators studies with Civis Analytics’ survey and message testing technology to empower local leaders and Census coordinators to run data-driven outreach campaigns and avoid an undercount.",
@@ -55,7 +37,52 @@
       "ClearDiv": ""
     },
     {
-      "Title": "Showcasing data on issues critical to the well-being of the Latinx community in California",
+      "Title": "Predicts: Census 2020",
+      "Owner": "Columbia",
+      "Category": "census",
+      "Short-Message": "Columbia university's product supports policymakers in resource allocation by predicting decennial Census response rates by day for each census tract, and comparing them to the true rates.",
+      "Image-File": "columbia-census.png",
+      "Gallery-Link": "http://predictscensus2020.cs.columbia.edu/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Talent Finder Tool",
+      "Owner": "Emsi",
+      "Category": "entrepreneurship",
+      "Short-Message": "Emsi's Talent Finder Tool uses federal open data sets from the Bureau of Labor Statistics, StatsAmerica, American Community Survey, and Internal Revenue Service to solve talent discovery issues for entrepreneurs and small businesses seeking to hire high-tech workers.",
+      "Image-File": "emsi.gif",
+      "Gallery-Link": "https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Community Counts",
+      "Owner": "Excella",
+      "Category": "census",
+      "Short-Message": "Community Counts leverages data from HUD and Community Partners to help Area Census Office Staff visualize and verify potential locations of individuals experiencing homelessness for enumeration.",
+      "Image-File": "excella-2.png",
+      "Gallery-Link": "http://2020count.org/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Kanarys",
+      "Owner": "Kanarys",
+      "Category": "employment",
+      "Short-Message": "Kanarys uses open EEOC data and Census Bureau data and reports to create more inclusive, nontoxic workplaces for individuals and their employers.",
+      "Image-File": "kanarys.png",
+      "Gallery-Link": "http://app.kanarys.com",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Inclusive Growth Score",
+      "Owner": "Mastercard",
+      "Category": "economic development",
+      "Short-Message": "The Inclusive Growth Score blends open-source public data with a proprietary layer of aggregated and anonymized Mastercard Data to measure the degree to which place, economy and community in a given Opportunity Zone benefit from equitable growth.",
+      "Image-File": "mastercard.png",
+      "Gallery-Link": "https://inclusivegrowthscore.com/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "California Latino Power Map",
       "Owner": "Measure of America",
       "Category": "census",
       "Short-Message": "The California Latino Power Map uses federal, California state, and city level open data to showcase Latino leadership across California and make plain both the opportunities and the challenges that Latino communities encounter for anyone who works to improve the quality of life for Latino and Hispanic residents of California.",
@@ -64,66 +91,57 @@
       "ClearDiv": ""
     },
     {
-      "Title": "Providing free educational resources and interactive tools to micro and small business owners",
-      "Owner": "Visa",
-      "Category": "workforce",
-      "Short-Message": "The Practical Business Skills chat bot uses several federal data, such as Small Business Administration’s ‘Find Local Assistance’ resource, to empower growth-minded entrepreneurs with the financial and business knowledge to better manage their money and make confident, informed business decisions.",
-      "Image-File": "visa-2.jpg",
-      "Gallery-Link": "www.practicalbusinessskills.com",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Predicts: Census 2020",
-      "Owner": "Columbia",
-      "Category": "census",
-      "Short-Message": "Predicting response levels by census tract to assist in resource allocation during the self-response period of the 2020 Census",
-      "Image-File": "columbia-census.png",
-      "Gallery-Link": "http://predictscensus2020.cs.columbia.edu/",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Helping entrepreneurs identify where high-tech talent exists",
-      "Owner": "Emsi",
-      "Category": "workforce",
-      "Short-Message": "The Talent Finder Tool uses a variety of federal open data sets, including data from the Bureau of Labor Statistics, StatsAmerica, US Census/American Community Survey, and Internal Revenue Service to solve talent discovery issues for entrepreneurs and small businesses seeking to hire high-tech workers.",
-      "Image-File": "emsi.gif",
-      "Gallery-Link": "https://public.tableau.com/profile/emsi.community.insights#!/vizhome/EmsiTalentFinderTool/Dashboard1?publish=yes",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Leveraging the knowledge of Community Partners to improve the count of community members experiencing homelessness",
-      "Owner": "Excella",
-      "Category": "census",
-      "Short-Message": "Community Counts leverages data from HUD and Community Partners to help Area Census Office Staff visualize and verify potential locations of individuals experiencing homelessness for enumeration.",
-      "Image-File": "excella-2.png",
-      "Gallery-Link": "2020Count.org",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Empowering individuals to speak up and organizations to build more inclusive work cultures",
-      "Owner": "Kanarys",
-      "Category": "workforce",
-      "Short-Message": "Kanarys uses open EEOC data and Census data and reports to create more inclusive, nontoxic workplaces for individuals and their employers.",
-      "Image-File": "kanarys.png",
-      "Gallery-Link": "app.kanarys.com",
-      "ClearDiv": ""
-    },
-    {
-      "Title": "Supporting CBOs with a digital storytelling toolkit to raise awareness and motivate participation amongst diaspora communities",
+      "Title": "#WhyWeCount by NextDayBetter",
       "Owner": "Next Day Better",
       "Category": "census",
-      "Short-Message": "NextDayBetter used open data overlaying low-response census tracts with low broadband access and CBAMS insights to define demographic profiles and psychographic barriers to design stories that, first and foremost, are culturally relevant to engage Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and that will raise awareness of how census impacts their lives.",
+      "Short-Message": "NextDayBetter used open data overlaying low-response census tracts with low broadband access and CBAMS insights to define demographic profiles and psychographic barriers to design stories that are culturally relevant to engage Seniors and Young Adults from the Puerto Rican and Filipino diasporas, and  raise awareness of how the census impacts their lives.",
       "Image-File": "next-day-better.png",
       "Gallery-Link": "www.whywecount.org",
       "ClearDiv": ""
     },
     {
-      "Title": "Measuring Opportunity, One Neighborhood At A Time",
-      "Owner": "Mastercard",
-      "Category": "workforce",
-      "Short-Message": "The Inclusive Growth Score blends open-source public data with a proprietary layer of aggregated and anonymized Mastercard Data to measure the degree to which place, economy and community in a given Opportunity Zone benefit from equitable growth.",
-      "Image-File": "mastercard.png",
-      "Gallery-Link": "https://inclusivegrowthscore.com/",
+      "Title": "Community Led Opportunity Zones",
+      "Owner": "Public Democracy",
+      "Category": "economic development",
+      "Short-Message": "Public Democracy uses ACS data, proprietary enterprise level marketing systems along with privately owned data, and new data that we gathered via their survey tool, which ensures that community priorities inform OZ strategies for policy decision-makers, economic development officials, and investors in Birmingham, Alabama.",
+      "Image-File": "public-democracy.png",
+      "Gallery-Link": "https://www.publicdemocracy.io/opportunity-zones-local-impact",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Redfin's Job Opportunity Tool",
+      "Owner": "Redfin",
+      "Category": "employment",
+      "Short-Message": "Redfin's job opportunity tool uses datasets on employment clusters, pay ranges, housing costs, and more to help better inform Redfin’s millions of users looking to relocate for work or even startups looking to find workers.",
+      "Image-File": "redfin.png",
+      "Gallery-Link": "https://www.redfin.com/blog/job-opportunity-tool/",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Solve",
+      "Owner": "Solve.is",
+      "Category": "employment",
+      "Short-Message": "Solve uses NAICs codes and National Certifications Table to organize industries to better connect skills, certifications, industries and outcomes of training programs towards the right jobs in the right industry.",
+      "Image-File": "solve.is.png",
+      "Gallery-Link": "www.solve.is",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Practical Business Skills",
+      "Owner": "Visa",
+      "Category": "entrepreneurship",
+      "Short-Message": "Visa's Practical Business Skills chat bot uses several federal data, such as Small Business Administration’s ‘Find Local Assistance’ resource, to empower growth-minded entrepreneurs with the financial and business knowledge to better manage their money and make confident, informed business decisions.",
+      "Image-File": "visa-2.png",
+      "Gallery-Link": "www.practicalbusinessskills.com",
+      "ClearDiv": ""
+    },
+    {
+      "Title": "Voatz",
+      "Owner": "Voatz",
+      "Category": "census",
+      "Short-Message": "This project leverages data around growing numbers of overseas citizens, citizens with disabilities, and increasing levels of smartphone penetration across the United States to allow the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in the 2030 Census and beyond.",
+      "Image-File": "",
+      "Gallery-Link": "www.voatz.com",
       "ClearDiv": ""
     },
     {
