@@ -4390,8 +4390,9 @@ nav #links a {
   margin-bottom: 13px; }
 
 .filters-div button {
-  padding: 7px 0px;
-  width: 130px;
+  padding: 7px 12px;
+  margin: 4px 2px 4px 0;
+  width: auto;
   min-width: 0px;
   min-height: 0px;
   font-size: 13px;
