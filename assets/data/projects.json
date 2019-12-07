@@ -3,7 +3,7 @@
     {
       "Title": "Inclusive Development Dashboards",
       "Owner": "Burning Glass Technologies",
-      "Category": "economic development",
+      "Category": "economic-development",
       "Short-Message": "Burning Glass Technologies used federal open data from the Department of Labor and US Census Bureau, proprietary Burning Glass data on labor market demand, and public data from the US Cluster Mapping Project to assist regional workforce and economic development conveners develop strategies and prioritize initiatives to achieve inclusive development in their regions and to build an inclusive development network that includes leaders from the civic sector, government, and industry.",
       "Image-File": "",
       "Gallery-Link": "https://www.burning-glass.com/census/community.html",
@@ -75,7 +75,7 @@
     {
       "Title": "Inclusive Growth Score",
       "Owner": "Mastercard",
-      "Category": "economic development",
+      "Category": "economic-development",
       "Short-Message": "The Inclusive Growth Score blends open-source public data with a proprietary layer of aggregated and anonymized Mastercard Data to measure the degree to which place, economy and community in a given Opportunity Zone benefit from equitable growth.",
       "Image-File": "mastercard.png",
       "Gallery-Link": "https://inclusivegrowthscore.com/",
@@ -102,7 +102,7 @@
     {
       "Title": "Community Led Opportunity Zones",
       "Owner": "Public Democracy",
-      "Category": "economic development",
+      "Category": "economic-development",
       "Short-Message": "Public Democracy uses ACS data, proprietary enterprise level marketing systems along with privately owned data, and new data that we gathered via their survey tool, which ensures that community priorities inform OZ strategies for policy decision-makers, economic development officials, and investors in Birmingham, Alabama.",
       "Image-File": "public-democracy.png",
       "Gallery-Link": "https://www.publicdemocracy.io/opportunity-zones-local-impact",
