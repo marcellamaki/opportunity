@@ -54,11 +54,76 @@
   <!-- CSS
     ================================================== -->
   <!-- env: demo -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link rel="stylesheet" href="/data/assets/css/styles.css">
   <style>
     .usa-banner__content{
       display: hidden;
     }
+
+/* Re-style usa banner */
+
+html {
+  background-color: #13192F;
+}
+
+.usa-accordion {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #13192F;
+  color: #fff;
+  opacity: .75;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  font-family: "Silka", Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  line-height: auto ; }
+
+  .usa-banner__header-text {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .usa-banner__header-flag {
+    float: left ;
+    margin-right: 8px;
+    width: 16px; }
+    @media all and (min-width: 40em) {
+      .usa-banner__header-flag {
+        margin-right: 8px;
+        padding-top: 0; } }
+
+  /* Remove letter spacing from stats */
+
+  .data-kit .data-kit__container .data-kit__stats {
+    letter-spacing: 0;
+  }
+
+  /* Style Return arrow */
+
+  .return-arrow {
+    float: left ;
+    margin-right: 8px;
+    width: 16px; }
+    @media all and (min-width: 40em) {
+      .usa-banner__header-flag {
+        margin-right: 8px;
+        padding-top: 0; } }
+
+        /* Decrease margin between kit cover and kit captions */
+
+
+        .data-kit .data-kit__container .data-kit__stats {
+          bottom: 2rem;
+        }
+
+        .data-kit .data-kit__container .data-kit__upcoming {
+          bottom: 2rem;
+        }
+
   </style>
 </head>
 
@@ -69,41 +134,14 @@
       <header class="usa-banner__header">
         <div class="usa-banner__inner">
           <div class="grid-col-auto">
-            <img class="usa-banner__header-flag" src="/data/assets/uswds/img/us_flag_small.png" alt="U.S. flag">
+            <img class="usa-banner__header-flag" src="/data/assets/uswds/img/us_flag_small.svg" alt="U.S. flag">
           </div>
           <div class="grid-col-fill tablet:grid-col-auto">
             <p class="usa-banner__header-text">An official website of the United States government</p>
           </div>
-          <button class="usa-accordion__button usa-banner__button"
-            aria-expanded="false" aria-controls="gov-banner">
-          
-          </button>
+
         </div>
       </header>
-      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
-        <div class="grid-row grid-gap-lg">
-          <div class="usa-banner__guidance tablet:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="/data/assets/uswds/img/icon-dot-gov.svg" alt="Dot gov">
-            <div class="usa-media-block__body">
-              <p>
-                <strong>The .gov means it’s official.</strong>
-                <br>
-                Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
-              </p>
-            </div>
-          </div>
-          <div class="usa-banner__guidance tablet:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="/data/assets/uswds/img/icon-https.svg" alt="Https">
-            <div class="usa-media-block__body">
-              <p>
-                <strong>The site is secure.</strong>
-                <br>
-                The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <div class="usa-overlay"></div>
@@ -112,16 +150,18 @@
   <nav role="navigation" class="usa-nav">
     <div class="nav-left">
       <ul>
-      
-      
-      
-      
-      <li class="usa-nav__primary-item">
-        <a href="/"><span>Main Website</span></a>
-      </li>
-      
 
-      
+
+
+
+      <li class="usa-nav__primary-item">
+        <a href="/">
+         <span> <img class="return-arrow" src="/data/assets/images/icons/return-arrow.svg" alt="Left arrow">
+          Main Website</span></a>
+      </li>
+
+
+
       </ul>
     </div>
   </nav>
@@ -131,7 +171,7 @@
 
 <main class="landing-container" id="main-content">
 
-  
+
 <section class="usa-hero">
   <div class="grid-container">
     <div class="usa-hero__callout">
@@ -146,49 +186,49 @@
 
 <div class="data-kit grid-container">
   <div class="grid-row grid-gap-lg">
-    
+
     <div class="tablet:grid-col data-kit__container">
       <a class="data-kit__button" href="/data/workforce/">
-        
+
         <div class="data-kit__card data-kit__active" style="background-image: url('/data/assets/images/data-kits/workforce.png')">
-          
+
           <h2>Workforce Challenges</h2>
           <p>Data on workers, businesses, jobs, credentials, and more</p>
-          
+
           <img class="data-kit__arrow" src="/data/assets/images/icons/right-arrow.svg" alt="Right Arrow" />
-          
+
         </div>
       </a>
       <div class="data-kit__bg">
-        
+
         <div class="data-kit__stats">
           <img class="data-kit__icon-items" src="/data/assets/images/icons/items.svg" alt="Icon for number of datasets" />
           <p>57</p>
         </div>
-        
+
       </div>
     </div>
-    
+
     <div class="tablet:grid-col data-kit__container">
       <a class="data-kit__button" href="/data">
-        
+
         <div class="data-kit__card" style="background-image: url('/data/assets/images/data-kits/gis.png')">
-        
+
           <h2>Geospatial Challenges</h2>
           <p>Geospatial data from across the federal government</p>
-          
-          
+
+
         </div>
       </a>
       <div class="data-kit__bg">
-        
+
         <div class="data-kit__upcoming">
           Coming Soon
         </div>
-        
+
       </div>
     </div>
-    
+
     <div class="tablet:grid-col">
       <a class="data-kit__button" href="mailto:Census.opportunityproject@census.gov?subject=Suggest%20a%20theme%20&amp;body=Hi%20there!%0D%0A%0D%0AI'd%20like%20to%20suggest%20a%20new%20theme%20for%20an%20upcoming%20sprint%20in%20the%20Opportunity%20Project.">
         <div class="data-kit__suggest">
@@ -226,4 +266,3 @@
 
 </body>
 </html>
-
