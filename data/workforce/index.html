@@ -172,7 +172,41 @@ html {
               margin-right: 8px;
               padding-top: 0; } }
 
+/* Bold Dataset card titles */
 
+.datasets__card-email {
+  padding: 7px 9px 5px 9px;
+  right: 15px;
+  bottom: -1.1rem;
+}
+
+.datasets__card-title {
+  font-weight: 700;
+}
+
+.datasets__card-email {
+  font-weight: 500;
+}
+
+.datasets__card-email span {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.datasets__card-email span::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.datasets__card-email:hover span::after {
+    width: 100%;
+    //transition: width .3s;
+}
 
   </style>
 </head>
@@ -202,7 +236,7 @@ html {
 
 
       <li>
-        <a href="/data/"><img class="return-arrow" src="/data/assets/images/icons/return-arrow.svg" alt="Left arrow">All Themes</a>
+        <img class="return-arrow" src="/data/assets/images/icons/return-arrow.svg" alt="Left arrow"><a href="/data/">All Themes</a>
       </li>
 
 
@@ -353,7 +387,7 @@ html {
 
         <a href="mailto:george.o.walker@census.gov?subject=Inquiry:%20Census Business Builder&amp;body=Hi%20Chip Walker,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -371,7 +405,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20American Community Survey APIs&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -389,7 +423,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20USA Trade Data&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -407,7 +441,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Zip Code Business Patterns&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -425,7 +459,7 @@ html {
 
         <a href="mailto:Eric.A.Coyle@census.gov?subject=Inquiry:%20American Community Survey &ndash; Demographic Data&amp;body=Hi%20Eric Coyle,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -443,7 +477,7 @@ html {
 
         <a href="mailto:john.c.huggins@hud.gov?subject=Inquiry:%20HUD Enterprise GIS&amp;body=Hi%20John Huggins,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -461,7 +495,7 @@ html {
 
         <a href="mailto:john.c.huggins@hud.gov?subject=Inquiry:%20Map of Opportunity Zones and Affordable Housing&amp;body=Hi%20John Huggins,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -479,7 +513,7 @@ html {
 
         <a href="mailto:Michael.k.hollar@hud.gov?subject=Inquiry:%20Low-Income Housing Tax Credit Qualified Census Tracts&amp;body=Hi%20Mike Hollar,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -497,7 +531,7 @@ html {
 
         <a href="mailto:peter.b.kahn@hud.gov?subject=Inquiry:%20Fair-Market Rent Data&amp;body=Hi%20Peter Kahn,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -515,7 +549,7 @@ html {
 
         <a href="mailto:kevin.k.pierce@irs.gov?subject=Inquiry:%20Treasury ZIP Code Statistics of Income&amp;body=Hi%20Kevin Pierce,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -533,7 +567,7 @@ html {
 
         <a href="mailto:robert.bectel@ee.doe.gov, Debbie.Brodt.Giles@nrel.gov, jon.weers@nrel.gov?subject=Inquiry:%20Location of Energy Infrastructure&amp;body=Hi%20Rob Bectel, Debbie Brodt-Giles &amp; Jon Weers,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -575,7 +609,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Quarterly Workforce Indicators&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -593,7 +627,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20County Business Patterns&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -611,7 +645,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Non-Employer Statistics&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -629,7 +663,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Economic Census Data&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -647,7 +681,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Survey of Business Owners (SBO)&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -665,7 +699,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Annual Survey of Entrepreneurs&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -683,7 +717,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Employment Data from Census by Geography&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -701,7 +735,7 @@ html {
 
         <a href="mailto:kohli.amrit@BLS.gov?subject=Inquiry:%20Occupational Employment Statistics&amp;body=Hi%20Amrit Kohli,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -731,7 +765,7 @@ html {
 
         <a href="mailto:emiller@eda.gov?subject=Inquiry:%20Regional Innovation Strategies (RIS) Program&amp;body=Hi%20Emily Miller,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -749,7 +783,7 @@ html {
 
         <a href="mailto:zipperr@iu.edu, rogersc@iupui.edu?subject=Inquiry:%20Stats America&amp;body=Hi%20Riley Zipper &amp; Carol Rogers,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -791,7 +825,7 @@ html {
 
         <a href="mailto:areamer@gwu.edu?subject=Inquiry:%20List of Federal efforts supporting entrepreneurship&amp;body=Hi%20Andrew Reamer,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -809,7 +843,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Monthly Industry Indicators&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -875,7 +909,7 @@ html {
 
         <a href="mailto:matthew.mcmahon@nih.gov?subject=Inquiry:%20National Institutes of Health Awards&amp;body=Hi%20Matt McMahon,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -893,7 +927,7 @@ html {
 
         <a href="mailto:jverostek@dawnbreaker.com?subject=Inquiry:%20Small Business Innovation Research (SBIR) Program Data&amp;body=Hi%20JP Verostek,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -911,7 +945,7 @@ html {
 
         <a href="mailto:emiller@eda.gov?subject=Inquiry:%20Regional Innovation Strategies (RIS) Program&amp;body=Hi%20Emily Miller,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -931,7 +965,7 @@ html {
 
         <a href="mailto:robert.bectel@ee.doe.gov?subject=Inquiry:%20Lab Partnering Service (LPS)&amp;body=Hi%20Rob Bectel,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -949,7 +983,7 @@ html {
 
         <a href="mailto:Debbie.Brodt.Giles@nrel.gov?subject=Inquiry:%20Open Energy Information&amp;body=Hi%20Debbie Brodt-Giles,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1027,7 +1061,7 @@ html {
 
         <a href="mailto:scorecarddata@rti.org?subject=Inquiry:%20College Scorecard&amp;body=Hi%20,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1045,7 +1079,7 @@ html {
 
         <a href="mailto:Kohli.amrit@bls.gov?subject=Inquiry:%20Occupational Outlook Handbook&amp;body=Hi%20Amrit Kohli,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1063,7 +1097,7 @@ html {
 
         <a href="mailto:frugoli.pam@dol.gov?subject=Inquiry:%20O*NET Web Services&amp;body=Hi%20Pam Frugoli,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1094,7 +1128,7 @@ html {
 
         <a href="mailto:demale.michael.b@dol.gov?subject=Inquiry:%20CareerOneStop&amp;body=Hi%20Mike DeMale,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1136,7 +1170,7 @@ html {
 
         <a href="mailto:logan.t.powell@census.gov?subject=Inquiry:%20API &amp; Developer Resources for Census Bureau Data&amp;body=Hi%20Logan Powell,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1214,7 +1248,7 @@ html {
 
         <a href="mailto:eric.a.coyle@census.gov, logan.t.powell@census.gov?subject=Inquiry:%20American Community Survey - Population Data&amp;body=Hi%20Eric Coyle &amp; Logan Powell,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
@@ -1232,7 +1266,7 @@ html {
 
         <a href="mailto:Andrew.W.Hait@census.gov?subject=Inquiry:%20Business Formation Statistics&amp;body=Hi%20Andy Hait,">
           <div class="datasets__card-email">
-            Contact
+            <span>Contact</span>
           </div>
         </a>
 
