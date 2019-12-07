@@ -123,7 +123,7 @@
       "Category": "employment",
       "Short-Message": "Solve uses NAICs codes and National Certifications Table to organize industries to better connect skills, certifications, industries and outcomes of training programs towards the right jobs in the right industry.",
       "Image-File": "solve.is.png",
-      "Gallery-Link": "www.solve.is",
+      "Gallery-Link": "https://www.solve.is",
       "ClearDiv": ""
     },
     {
@@ -131,8 +131,8 @@
       "Owner": "Visa",
       "Category": "entrepreneurship",
       "Short-Message": "Visa's Practical Business Skills chat bot uses several federal data, such as Small Business Administration’s ‘Find Local Assistance’ resource, to empower growth-minded entrepreneurs with the financial and business knowledge to better manage their money and make confident, informed business decisions.",
-      "Image-File": "visa-2.png",
-      "Gallery-Link": "www.practicalbusinessskills.com",
+      "Image-File": "visa-2.jpg",
+      "Gallery-Link": "https://www.practicalbusinessskills.com",
       "ClearDiv": ""
     },
     {
@@ -141,7 +141,7 @@
       "Category": "census",
       "Short-Message": "This project leverages data around growing numbers of overseas citizens, citizens with disabilities, and increasing levels of smartphone penetration across the United States to allow the convenience, security and accessibility of smartphone and blockchain technology to ensure that hard-to-reach populations are counted in the 2030 Census and beyond.",
       "Image-File": "voatz.png",
-      "Gallery-Link": "www.voatz.com",
+      "Gallery-Link": "https://www.voatz.com",
       "ClearDiv": ""
     },
     {
