@@ -1,6 +1,6 @@
 $.ajax({
    type: 'GET',
-   url: './assets/data/projects.json',
+   url: '../../assets/data/projects.json',
    dataType: 'json',
    success: function( data ) {
 
