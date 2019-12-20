@@ -12,7 +12,7 @@
     {
       "Title": "Rural Startup Scout",
       "Owner": "Center on Rural Innovation",
-      "Category": "census",
+      "Category": "rural",
       "Short-Message": "CORI's Rural Startup Scout uses federal datasets including the American Community Survey, HIFLD, FCC Form 477, and data about education attainment and patent activity to reveal Opportunity Zones with emerging tech sectors so investors can discover promising rural startups ready to scale that otherwise would have been overlooked.",
       "Image-File": "cori.png",
       "Gallery-Link": "https://oz.ruralopportunitymap.us/",
@@ -21,7 +21,7 @@
     {
       "Title": "City Builder",
       "Owner": "Citi Ventures",
-      "Category": "rural",
+      "Category": "economic-development",
       "Short-Message": "Citi Ventures' City Builder uses U.S. Census Bureau, U.S. Department of Agriculture, U.S. Department of Education, and U.S. Securities and Exchange Commission data to bring transparency to the Opportunity Zone ecosystem for investors, fund manager, wealth managers, and cities.",
       "Image-File": "citi-ventures.png",
       "Gallery-Link": "http://citi.com/citybuilder",
