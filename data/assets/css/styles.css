@@ -18398,7 +18398,7 @@ example:
 
 html {
   height: 100vh;
-  background-color: #004280; }
+  background-color: #13192F; }
 
 @font-face {
   font-family: "Silka";
@@ -18546,10 +18546,17 @@ html {
     max-width: 100%; }
   .usa-banner__header-text {
     font-size: 1.2rem; }
-  @media (max-width: 63.99em) {
-    .usa-banner {
-      display: block; } }
+  .usa-banner__header-flag {
+    float: left;
+    margin-right: 8px;
+    width: 16px; }
 
+@media (max-width: 63.99em) {
+  display: block; }
+@media all and (min-width: 40em) {
+  .usa-banner__header-flag {
+    margin-right: 8px;
+    padding-top: 0; } }
 .usa-accordion {
   color: #FFFFFF;
   opacity: 0.7; }
@@ -18802,40 +18809,21 @@ html {
   display: hidden; }
 
 /* Re-style usa banner */
-html {
-  background-color: #13192F; }
-
 .usa-accordion {
-  margin-bottom: 0;
-  margin-top: 0;
-  list-style-type: none;
-  padding-left: 0;
-  background-color: #13192F;
-  color: #fff;
-  opacity: .75;
   margin: 0;
+  list-style-type: none;
+  background-color: #13192F;
+  color: #ffffff;
+  opacity: .75;
   padding: 4px 0;
   width: 100%;
-  font-family: "Silka", Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  line-height: auto; }
+  font-family: "silka", Helvetica, sans-serif; }
 
 .usa-banner__header-text {
   font-size: 11px;
   font-weight: 500; }
 
-.usa-banner__header-flag {
-  float: left;
-  margin-right: 8px;
-  width: 16px; }
-
-@media all and (min-width: 40em) {
-  .usa-banner__header-flag {
-    margin-right: 8px;
-    padding-top: 0; } }
-/* Remove letter spacing from stats */
-.data-kit .data-kit__container .data-kit__stats {
-  letter-spacing: 0; }
-
+/* Decrease margin between kit cover and kit captions */
 /* Style Return arrow */
 .return-arrow {
   float: left;
@@ -18846,7 +18834,6 @@ html {
   .usa-banner__header-flag {
     margin-right: 8px;
     padding-top: 0; } }
-/* Decrease margin between kit cover and kit captions */
 .data-kit .data-kit__container .data-kit__stats {
   bottom: 2rem; }
 

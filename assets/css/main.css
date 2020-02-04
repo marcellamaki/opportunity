@@ -2073,7 +2073,8 @@ dfn {
   line-height: 1.5215469613 ;
   color: #ffffff;
   z-index: 10000;
-  background-color: #132F50; }
+  width: 100%;
+  background-color: #222222; }
   @media all and (min-width: 40em) {
     .usa-banner {
       font-size: 0.8650735294rem;
@@ -2117,13 +2118,6 @@ dfn {
       padding-top: 0; } }
 
 .usa-banner__inner {
-  padding-left: 1rem ;
-  padding-right: 1rem ;
-  margin-left: auto ;
-  margin-right: auto ;
-  max-width: 64rem ;
-  padding-left: 1rem ;
-  padding-right: 1rem ;
   display: flex ;
   flex-wrap: wrap ;
   align-items: flex-start ;
@@ -2141,15 +2135,13 @@ dfn {
       align-items: center ; } }
 
 .usa-banner__header {
-  padding-left: 10em;
-  padding-bottom: 0.5rem ;
-  padding-top: 0.5rem ;
   font-size: 0.7985294118rem;
   font-weight: normal;
   min-height: 1rem;
   position: relative; }
   @media all and (min-width: 40em) {
     .usa-banner__header {
+      padding-left: 2em;
       padding-bottom: 0.25rem ;
       padding-top: 0.25rem ;
       min-height: 0; } }
@@ -3162,7 +3154,7 @@ input.usa-input-medium {
 
 .usa-nav {
   position: fixed;
-  top: 0;
+  top: 10px;
   right: 0;
   bottom: 0;
   left: auto;
@@ -3933,7 +3925,7 @@ nav #links a {
 
 #prize-banner {
   position: absolute;
-  top: 70px;
+  top: 80px;
   width: 100%;
   background-color: #55BBFF;
   text-align: center;
