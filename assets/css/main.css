@@ -3188,7 +3188,7 @@ input.usa-input-medium {
   min-height: 100%; }
 @media screen and (min-width: 951px) {
   .usa-nav nav {
-    margin-top: 0; } }
+    margin-top: 10; } }
 .usa-nav .usa-current {
   border-left: 4px solid #0071bc;
   color: #0071bc;
@@ -3873,6 +3873,7 @@ button {
 nav {
   z-index: 100;
   top: 2;
+  padding-top: 10px;
   position: fixed;
   background-color: #132F50;
   width: 100%;
@@ -3925,7 +3926,7 @@ nav #links a {
 
 #prize-banner {
   position: absolute;
-  top: 80px;
+  top: 70px;
   width: 100%;
   background-color: #55BBFF;
   text-align: center;
