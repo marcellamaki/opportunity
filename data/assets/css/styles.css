@@ -18398,7 +18398,7 @@ example:
 
 html {
   height: 100vh;
-  background-color: #004280; }
+  background-color: #13192F; }
 
 @font-face {
   font-family: "Silka";
@@ -18546,10 +18546,17 @@ html {
     max-width: 100%; }
   .usa-banner__header-text {
     font-size: 1.2rem; }
-  @media (max-width: 63.99em) {
-    .usa-banner {
-      display: block; } }
+  .usa-banner__header-flag {
+    float: left;
+    margin-right: 8px;
+    width: 16px; }
 
+@media (max-width: 63.99em) {
+  display: block; }
+@media all and (min-width: 40em) {
+  .usa-banner__header-flag {
+    margin-right: 8px;
+    padding-top: 0; } }
 .usa-accordion {
   color: #FFFFFF;
   opacity: 0.7; }
@@ -18798,6 +18805,41 @@ html {
     transform: translateX(5px); }
   60% {
     transform: translateX(2px); } }
+.usa-banner__content {
+  display: hidden; }
+
+/* Re-style usa banner */
+.usa-accordion {
+  margin: 0;
+  list-style-type: none;
+  background-color: #13192F;
+  color: #ffffff;
+  opacity: .75;
+  padding: 4px 0;
+  width: 100%;
+  font-family: "silka", Helvetica, sans-serif; }
+
+.usa-banner__header-text {
+  font-size: 11px;
+  font-weight: 500; }
+
+/* Decrease margin between kit cover and kit captions */
+/* Style Return arrow */
+.return-arrow {
+  float: left;
+  margin-right: 8px;
+  width: 16px; }
+
+@media all and (min-width: 40em) {
+  .usa-banner__header-flag {
+    margin-right: 8px;
+    padding-top: 0; } }
+.data-kit .data-kit__container .data-kit__stats {
+  bottom: 2rem; }
+
+.data-kit .data-kit__container .data-kit__upcoming {
+  bottom: 2rem; }
+
 .usa-footer {
   background-color: #004280;
   text-align: center;
@@ -19098,6 +19140,151 @@ html {
         opacity: 1; }
       .datasets__card:hover .datasets__card-email {
         opacity: 1; }
+
+.usa-banner__content {
+  display: hidden; }
+
+/* Search bar */
+#myInput {
+  background-image: url("../../assets/search.svg");
+  /* Add a search icon to input */
+  background-position: 20px 14px;
+  /* Position the search icon */
+  background-repeat: no-repeat;
+  /* Do not repeat the icon image */
+  width: 100%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 14px 14px 14px 50px;
+  /* Add some padding */
+  border: none;
+  border-radius: 4px;
+  background-color: #08325F;
+  margin-bottom: 1rem;
+  /* Add some space below the input */
+  margin-top: 3rem;
+  color: #fff;
+  font-weight: 500; }
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+#myUL li a {
+  border: 1px solid #ddd;
+  /* Add a border to all links */
+  margin-top: -1px;
+  /* Prevent double borders */
+  background-color: #f6f6f6;
+  /* Grey background color */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove default text underline */
+  font-size: 18px;
+  /* Increase the font-size */
+  color: black;
+  /* Add a black text color */
+  display: block;
+  /* Make it into a block element to fill the whole list */ }
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+  /* Add a hover effect to all links, except for headers */ }
+
+/* Color placeholder text */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #AFBDCB;
+  opacity: 1;
+  font-weight: 500;
+  /* Firefox */ }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #AFBDCB;
+  font-weight: 500; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #AFBDCB;
+  font-weight: 500; }
+
+/* Remove bottom margin from CAR */
+.challenge__container {
+  padding: 3.5rem 0 0 0; }
+
+/* Re-style usa banner */
+html {
+  background-color: #13192F; }
+
+.usa-accordion {
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #13192F;
+  color: #fff;
+  opacity: .75;
+  margin: 0;
+  padding: 4px 0;
+  width: 100%;
+  font-family: "Silka", Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  line-height: auto; }
+
+.usa-banner__header-text {
+  font-size: 11px;
+  font-weight: 500; }
+
+.usa-banner__header-flag {
+  float: left;
+  margin-right: 8px;
+  width: 16px; }
+
+@media all and (min-width: 40em) {
+  .usa-banner__header-flag {
+    margin-right: 8px;
+    padding-top: 0; } }
+/* Style Return arrow */
+.return-arrow {
+  float: left;
+  margin-right: 8px;
+  width: 16px; }
+
+@media all and (min-width: 40em) {
+  .usa-banner__header-flag {
+    margin-right: 8px;
+    padding-top: 0; } }
+/* Bold Dataset card titles */
+.datasets__card-email {
+  padding: 7px 9px 5px 9px;
+  right: 15px;
+  bottom: -1.1rem; }
+
+.datasets__card-title {
+  font-weight: 700; }
+
+.datasets__card-email {
+  font-weight: 500; }
+
+.datasets__card-email span {
+  display: inline-block;
+  color: #000;
+  text-decoration: none; }
+
+.datasets__card-email span::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s; }
+
+.datasets__card-email:hover span::after {
+  width: 100%; }
 
 @media screen and (min-width: 640px) {
   .tablet\:width-1\/3 {

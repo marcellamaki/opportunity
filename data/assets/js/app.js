@@ -37,6 +37,55 @@ function filterSelection(c) {
   }
 }
 
+
+function searchDatasets() {
+  var td;
+  var txtValue;
+  var i;
+  var input = document.getElementById("myInput");
+  var filter = input.value.toUpperCase();
+  var table = document.getElementById("data-to-filter");
+  var tr = table.getElementsByClassName("datasets__card");
+  
+  for (i = 0; i < tr.length; i++) {
+    // console.log("in the for loop")
+    td = tr[i].getElementsByClassName("datasets__card-title")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByClassName("datasets__card-subtitle")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByClassName("datasets__card-description")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+
+}
+
 // Show filtered elements
 function addClass(element, name) {
   let i, array1, array2;
