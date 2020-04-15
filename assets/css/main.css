@@ -3782,7 +3782,7 @@ input[type=search] {
 }
 
 a, a:visited, a:-webkit-any-link {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 p {
@@ -3944,6 +3944,7 @@ nav #links a {
     color: #132F50;
     font-weight: 600;
     margin-left: 20px;
+    text-decoration: underline;
   }
 
   @media (max-width: 690px) {
