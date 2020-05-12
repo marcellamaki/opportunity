@@ -82,9 +82,6 @@ developers, communities, and government together to solve problems using open da
       </p>
     </div>
 
-    <div id="join-btn-sprint-wrapper" class="usa-width-one-third">
-      <a href="/contact/"><button class="red-btn"> Join a Sprint </button></a>
-    </div>
   </div>
 
 </section>
@@ -181,12 +178,13 @@ developers, communities, and government together to solve problems using open da
     <div class="usa-grid">
       <div class="usa-width-one-half">
         <br><br>
-        <h1 style="color: #112D51;"> Problem Statements </h1>
+        <h1 id="problem-statements" style="color: #112D51;"> Problem Statements </h1>
       </div>
 
       <div class="usa-width-one-half">
         <br><br><br>
         <div class="year-wrapper">
+          <span onclick="psToggle('2020')"><h3 class="yr-btn yr-btn-active" id="yr-btn-2019"> 2019 </h3></span>
           <span onclick="psToggle('2019')"><h3 class="yr-btn yr-btn-active" id="yr-btn-2019"> 2019 </h3></span>
           <span onclick="psToggle('2018')"><h3 class="yr-btn" id="yr-btn-2018"> 2018 </h3></span>
           <span onclick="psToggle('2017')"><h3 class="yr-btn" id="yr-btn-2017"> 2017 </h3></span>
@@ -196,6 +194,44 @@ developers, communities, and government together to solve problems using open da
     </div>
 
     <div class="usa-grid">
+
+
+      <div class="ps ps-2020 ps-active" class="usa-width-one-whole">
+        <br>
+        <div class="problem-statement">
+          <img class="ps-image" src="/assets/img/2020-census.png">
+          <h3 class="ps-title"> <br> Natural Environment Cohort</h3>
+          <p> This cohort will focus on challenges related to the natural environment, and will run from June - September 2020. The four challenges include:</p>
+            <ul>
+            <li>Developing efficient and effective markets for recycled materials (EPA)</li>
+            <li>Reducing plastic pollution in oceans (State Department, Wilson Center)</li>
+            <li>Helping the public understand effects of emissions on local air quality (EPA)</li>
+            <li>Enabling aerial and geospatial data to air agricultural decision-making (USDA)</li>
+            </ul>
+        <br><br><br><br>
+         <p class="sprint-see-more" align="center"> <a href="/assets/data/Sprint 1 Problem Statements - Natural Environment.pdf" target="_blank" download> See Problem Statements </a> </p>
+        </div>
+      </div>
+
+      <div class="ps ps-2020 ps-active" class="usa-width-one-whole">
+        <br>
+        <div class="problem-statement">
+          <img class="ps-image" src="/assets/img/2020-census.png">
+          <h3 class="ps-title"> <br> Built Environment Cohort</h3>
+          <p> This cohort will focus on challenges related to the built environment, and will run from July - October 2020. The four challenges include:</p>
+            <ul>
+            <li>Paving a path to economic self sufficiency for low income families (HUD)</li>
+            <li>Assisting recently resettled refugees (USA for UNHCR)</li>
+            <li>Facilitating sustainable rural economic development (EPA)</li>
+            <li>Tracking the impact of emergency and disaster funding (OMB) </li>
+            </ul>
+        <br><br><br><br>
+         <p class="sprint-see-more" align="center"> <a href="/assets/data/Sprint 2 Problem Statements - Built Environment.pdf" target="_blank" download> See Problem Statements </a> </p>
+        </div>
+      </div>
+
+
+
       <div class="ps ps-2019 ps-active" class="usa-width-one-whole">
         <br>
         <div class="problem-statement">
@@ -551,10 +587,17 @@ developers, communities, and government together to solve problems using open da
         </div>
       </div>
 
-      <div class="usa-width-one-whole">
-        <p></p>
-        <p> For more detailed information on 2019's workforce sprint, <a href="/assets/data/2019_workforce_problem_statements.pdf" target="_blank" download> click here</a>.</p>
+      <div align="center" class="usa-width-one-whole">
+        <a href="mailto:census.opportunityproject@census.gov?subject=I'm interested in joining a sprint"><button class="red-btn"> Join a Sprint </button></a>
+
       </div>
+
+
+      <div class="usa-width-one-whole">
+        <p>Depending on results and mission priorities, government agencies may engage with notable TOP tech teams on their solutions or technologies for continued collaboration in similar or pressing national challenges, as well as engage participants in testing, feedback, development, and/or deployment of digital tools. Future opportunities may include an organized dialogue or event with TOP partners and/or a competitive opportunity such as <a href="https://www.congress.gov/110/plaws/publ69/PLAW-110publ69.pdf">America COMPETES prize</a> recognition or <a href="https://www.fai.gov/periodic-table/">purchase</a>.</p>
+      </div>
+
+
     </div>
   </section>
 
